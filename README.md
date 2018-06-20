@@ -32,7 +32,7 @@ vi test.sh
 # Author's email: info@changegene.com
 # Powered by: ChangeGene LLC. https://ChangeGene.com
 # License: Peaceful Open Source License (PeaceOSL)
-# Update url:https://raw.githubusercontent.com/changegene/essential_scripts/master/mkscript.sh
+# Update url:
 
 
 
