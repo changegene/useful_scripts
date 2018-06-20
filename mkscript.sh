@@ -1,6 +1,6 @@
 #!#!env sh
 #
-# mkscript.sh - A Shell to help you add head information when you create a script.
+# mkscript.sh - A Shell help you add head information when you create a script.
 # Created on Wed Jun 19 11:33:51 CST 2018 by NIKITA.
 # Version: 1.0
 # Last modified:
@@ -8,7 +8,7 @@
 # Author's email: info@changegene.com
 # Powered by: ChangeGene LLC. https://ChangeGene.com
 # License: Peaceful Open Source License (PeaceOSL)
-# Update url:
+# Update url:https://raw.githubusercontent.com/changegene/essential_scripts/master/mkscript.sh
 
 
 
@@ -19,8 +19,11 @@ ruby_bin='env ruby'
 python_bin='env python'
 
 usage() {
-	echo "Usage: `basename $0` \"Author\" \"Author's email\" \"Organization\" script_name [description]"
-  echo 'Example: sh mkscript.sh "NIKITA" "info@changegene.com" "ChangeGene LLC. https://ChangeGene.com" test.sh "This is a test"'
+	echo "Usage: `basename $0` \"Author\" \"Author's email\" \"Organization\" script_name [description]\n"
+	echo 'Example: sh mkscript.sh "NIKITA" "info@changegene.com" "ChangeGene LLC. https://ChangeGene.com" test.sh ["This is a test script."]\n'
+	echo 'Set alias: mkscript="sh /path/mkscript.sh "NIKITA" "info@changegene.com" "ChangeGene LLC. https://ChangeGene.com"'
+	echo '           mkscript test.sh ["This is a test script."]'
+
 	[ $1 -eq 1 ] && exit 64 # command line usage error
 }
 
