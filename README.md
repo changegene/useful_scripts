@@ -10,12 +10,16 @@ wget https://raw.githubusercontent.com/changegene/essential_scripts/master/mkscr
 
 #### set alias
 vi ~/.bashrc
+
 mkscript="sh /path/mkscript.sh "NIKITA" "info@changegene.com" "ChangeGene LLC. https://ChangeGene.com"
+
 wq!
+
 exit
 
 #### login again and enjoy
 mkscript test.sh
+
 mkscript test.sh ["This is a test script."]
 
 ##  bioinformatics scripts
