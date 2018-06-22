@@ -38,4 +38,4 @@ vi test.sh
 
 ```
 
-##  bioinformatics scripts
+##  Bioinformatics scripts
